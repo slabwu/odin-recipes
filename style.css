@@ -1,8 +1,14 @@
 * {
     color: black;
-    background-color: peachpuff;
     font-family: sans-serif;
     font: Garamond, Arial;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-color: peachpuff;
 }
 
 a {
