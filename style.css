@@ -19,6 +19,16 @@ img {
     height: 300px;
 }
 
+h2, p, ul, ol {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: inherit;
+}
+
+li, strong {
+    background-color: inherit;
+}
+
 h1, h3 {
     text-align: center;
 }
@@ -28,6 +38,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
+    border-radius: 25px;
 }
 
 table img {
@@ -44,7 +55,10 @@ h1 {
 /**Homepage Header**/
 
 h2 {
-    font: Arial;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Arizonia', 'Brush Script MT', cursive;
 }
 /**Recipe Header**/
 
@@ -54,6 +68,10 @@ h3 {
 
 .food {
     font-size: 60px;
+    margin-top: 0px;
+    background-color: inherit;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 table {
@@ -63,4 +81,14 @@ table {
 
 th {
     width: 33%;
+}
+
+.recipe {
+    background-color: white;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 25px;
 }
