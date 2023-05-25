@@ -27,6 +27,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
+}
+
+table img {
+    height: auto;
+    width: 95%;
+    object-fit: cover;
 }
 
 h1 {
@@ -52,7 +59,6 @@ h3 {
 table {
     table-layout: fixed;
     width: 100%;
-    border: 1px solid;
 }
 
 th {
