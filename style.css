@@ -20,7 +20,7 @@ a {
     color: aqua;
 }
 
-img:hover {
+table img:hover {
     filter: brightness(110%);
 }
 
