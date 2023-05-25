@@ -27,19 +27,48 @@ nav .link {
     font-size: 4vw;
     display: block;
     margin: 0 auto;
-    width: 50%;
     text-align: center;
     font-family: 'Arizonia', 'Brush Script MT', cursive;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
 }
 
 nav div {
-    width: 33%;
-    display: block;
+    flex: 1;
 }
+
+@media (max-width: 750px) {
+
+    #navigation {
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav .link {
+        font-size: 12vw;
+        text-align: center;
+    }
+
+    nav img {
+        max-width: 75%;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    body h1 {
+        font-size: 15vw;
+    }
+
+    body .recipe {
+        margin: 0 5% 50px;
+    }
+}  
 
 nav img {
     height: auto;
@@ -102,16 +131,14 @@ h3 {
 .recipe {
     background-color: white;
     display: block;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 15% 100px;
     padding-bottom: 30px;
-    margin-bottom: 50px;
     border-radius: 25px;
 }
 
 button {
     display: block;
-    margin: 0 auto -40px 280px;
+    margin: 0 auto -40px 20%;
     padding: 20px 50px 40px;
     border: none;
     background: rgb(255, 78, 78);
