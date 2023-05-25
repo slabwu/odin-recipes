@@ -20,6 +20,15 @@ a {
     color: aqua;
 }
 
+img:hover {
+    filter: brightness(110%);
+}
+
+table a {
+    font-size: 4vw;
+    font-family: 'Arizonia', 'Brush Script MT', cursive;
+}
+
 img {
     width: 300px;
     height: 300px;
