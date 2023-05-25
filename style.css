@@ -18,18 +18,32 @@ a {
     color: aqua;
 }
 
-table img:hover {
+nav img:hover {
     filter: brightness(110%);
 }
 
-table a {
+nav .link {
     font-size: 4vw;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
     font-family: 'Arizonia', 'Brush Script MT', cursive;
 }
 
-img {
-    width: 300px;
-    height: 300px;
+nav {
+    display: flex;
+}
+
+nav div {
+    width: 33%;
+    display: block;
+}
+
+nav img {
+    height: auto;
+    width: 95%;
+    object-fit: cover;
 }
 
 h2, p, ul, ol {
@@ -47,17 +61,13 @@ h1, h3 {
 }
 
 img {
+    width: 300px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
     border-radius: 25px;
-}
-
-table img {
-    height: auto;
-    width: 95%;
-    object-fit: cover;
 }
 
 h1 {
@@ -85,15 +95,6 @@ h3 {
     background-color: inherit;
     margin-left: 20%;
     margin-right: 20%;
-}
-
-table {
-    table-layout: fixed;
-    width: 100%;
-}
-
-th {
-    width: 33%;
 }
 
 .recipe {
