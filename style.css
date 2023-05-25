@@ -1,0 +1,48 @@
+* {
+    color: black;
+    background-color: peachpuff;
+    font-family: sans-serif;
+    font: Garamond, Arial;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: small;
+}
+
+ a:hover {
+    color: aqua;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+img, a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Arizonia', 'Brush Script MT', cursive;
+}
+/**Homepage Header**/
+
+h2 {
+    font: Arial;
+}
+/**Recipe Header**/
+
+h3 {
+    position: relative;
+    bottom: 50px;
+}
